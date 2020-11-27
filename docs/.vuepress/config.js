@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'ArkStack Blog',
+    title: 'Blog',
     description: 'Just playing around',
     base: '/ArkStack/',
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/logo_s.svg',
     }
 }
