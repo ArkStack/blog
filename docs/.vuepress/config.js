@@ -1,7 +1,10 @@
 module.exports = {
-    title: 'Blog',
+    title: 'Blog+',
     description: 'Just playing around',
-    base: '/ArkStack/',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
+    base: '/',
     themeConfig: {
         logo: '/logo_s.svg',
     }
