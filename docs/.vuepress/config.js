@@ -7,5 +7,10 @@ module.exports = {
     base: '/',
     themeConfig: {
         logo: '/logo_s.svg',
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' }
+        ],
+        repo: 'ArkStack/blog'
     }
 }
