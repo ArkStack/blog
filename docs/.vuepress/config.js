@@ -9,8 +9,24 @@ module.exports = {
         logo: '/logo_s.svg',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' }
+            { text: '前端', link: '/frontend/' },
+            { text: '算法', link: '/algorithm/' }
         ],
-        repo: 'ArkStack/blog'
+        repo: 'ArkStack/blog',
+        sidebar: {
+            '/frontend/': [
+                '',
+                'javascript'
+            ],
+            '/algorithm/': [
+                '',
+                'leetCode'
+            ],
+            '/': [
+                ''
+            ]
+        },
+        displayAllHeaders: true,
+        lastUpdated: 'Last Updated'
     }
 }
